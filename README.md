@@ -1,3 +1,22 @@
+# Fuck_WRT仓库
+- 基于cooluc仓库minimal版本
+- 只添加passwall
+- 分流专用
+
+## 关联项目
+[adguard-changedns](https://github.com/Xingsandesu/adguard-changedns)
+[bncfbb/ikuai-chinaroute-xuefeng](https://hub.docker.com/r/bncfbb/ikuai-chinaroute-xuefeng) 
+## 组网原理
+
+参考 [right.com.cn 论坛](https://www.right.com.cn/forum/thread-8252571-1-1.html)
+
+实际方案略有不同，本人使用 iKuai 作为主路由，iKuai 虚拟机添加 WRT 并且使用自带的网桥作为海外线路接入分流的方案。配合自动更新国内 IP 段脚本，使用 [bncfbb/ikuai-chinaroute-xuefeng](https://hub.docker.com/r/bncfbb/ikuai-chinaroute-xuefeng) 更佳。
+
+## 定制需求 技术支持 远程部署
+
+欢迎光临我的[淘宝小店](https://shop306548719.taobao.com/?spm=pc_detail.29232929/evo365560b447259.shop_block.dshopinfo.71767dd6uawgtc)
+方案定制需求可对接物理iKuai，亦可对接PvE等虚拟化实现，比如上实现原理更进一步，组网性能损耗更小，去双软路由造成的双重NAT性能损耗，具体咨询客服
+
 # NanoPi R4S/R5S/R5C & X86_64 OpenWrt 简易构建脚本存档
 
 ### 存档来自：https://init2.cooluc.com
